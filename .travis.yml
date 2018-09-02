@@ -13,6 +13,8 @@ env:
     - TOXENV=py27-django17
     - TOXENV=py27-django18
     - TOXENV=py27-django18-cdecimal
+    - TOXENV=py27-django111
+    - TOXENV=py27-django111-cdecimal
 
     - TOXENV=py33-django17
     - TOXENV=py33-django18
@@ -23,18 +25,27 @@ env:
     - TOXENV=py34-django17
     - TOXENV=py34-django18
     - TOXENV=py34-django18-cdecimal
+    - TOXENV=py34-django111
+    - TOXENV=py34-django111-cdecimal
 
     - TOXENV=py35-django18
     - TOXENV=py35-django18-cdecimal
+    - TOXENV=py35-django111
+    - TOXENV=py35-django111-cdecimal
+
+    - TOXENV=py36-django111
+    - TOXENV=py36-django111-cdecimal
 
     - TOXENV=pypy-django14
     - TOXENV=pypy-django15
     - TOXENV=pypy-django16
     - TOXENV=pypy-django17
     - TOXENV=pypy-django18
+    - TOXENV=pypy-django111
 
     - TOXENV=pypy3-django17
     - TOXENV=pypy3-django18
+    - TOXENV=pypy3-django111
 
     - TOXENV=cov
 matrix:
